@@ -10,6 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NCPT">
         <activity
+            android:name=".signup"
+            android:exported="false" />
+        <activity
+            android:name=".forgot_password"
+            android:exported="false" />
+        <activity
+            android:name=".welcome_screen"
+            android:exported="false"
+            android:label="@string/title_activity_welcome_screen"
+            android:theme="@style/Theme.NCPT.NoActionBar" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
